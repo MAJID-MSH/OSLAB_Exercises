@@ -1,3 +1,4 @@
+print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
 print('Hi')
 
 Second = int(input('Enter Second: '))
