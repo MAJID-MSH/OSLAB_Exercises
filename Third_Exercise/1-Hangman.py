@@ -27,6 +27,7 @@ while True:
     if HP == 0 :
         print('\n==================================')
         print('_____GAME OVER MY FRIEND !!!!_____')
+        print('The Correct Word is:' , word)
         break
 
     user_en = input('\n\nPlease Enter a Letter :')
