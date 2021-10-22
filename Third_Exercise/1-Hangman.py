@@ -4,7 +4,6 @@ print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
 
 word_storage = [ 'bitcoin' , 'gamingsetup' ,  'cardano' , 'maxpain' , 'battlefield' , 'destiny' , 'halo'  , 'satoshi' , 'blockchain']
 word = random.choice(word_storage)
-print(word)
 
 HP = len(word)
 user_guess = []
