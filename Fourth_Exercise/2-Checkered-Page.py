@@ -1,13 +1,13 @@
 def checkered_page (n , m):
-    for i in range (n):
-        for j in range (m):
-            if i % 2 == 0 :
-                if j % 2 == 0 :
+    for r in range (n):
+        for c in range (m):
+            if r % 2 == 0 :
+                if c % 2 == 0 :
                     print('#', end='')
                 else:
                     print('*', end='')
             else :
-                if j % 2 == 0:
+                if c % 2 == 0:
                     print('*', end='')
                 else:
                     print('#', end='')
