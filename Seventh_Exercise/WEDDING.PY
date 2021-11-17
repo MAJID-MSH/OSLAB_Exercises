@@ -1,5 +1,8 @@
 import random
 
+print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+print('Hi')
+
 boys = ['ali', 'reza', 'yasin', 'benyamin', 'mehrdad', 'sajjad', 'aidin', 'shahin']
 girls = ['sara', 'zari', 'neda', 'homa', 'eli', 'goli', 'mary', 'mina']
 result=[]
@@ -14,4 +17,6 @@ for i in range(len(boys)):
     m=(tempB,tempG)
     result.append(m)
 
-print(result)
+
+print("Result ==>",result)
+print('\n   ---- MADE BY MAJID-MSH :)----\n\t<----GOODLUCK---->\n--------------------------------------------')
