@@ -14,8 +14,8 @@ for i in range(len(boys)):
     tempG = random.choice(girls)
     girls.remove(tempG)
    
-    m = (tempB , tempG)
-    result.append(m)
+    temp = (tempB , tempG)
+    result.append(temp)
 
 
 print("Result ==>",result)
