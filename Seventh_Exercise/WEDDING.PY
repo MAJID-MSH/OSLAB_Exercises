@@ -3,9 +3,9 @@ import random
 print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
 print('Hi')
 
-boys = ['ali', 'reza', 'yasin', 'benyamin', 'mehrdad', 'sajjad', 'aidin', 'shahin']
-girls = ['sara', 'zari', 'neda', 'homa', 'eli', 'goli', 'mary', 'mina']
-result=[]
+boys = ['ali' , 'reza', 'yasin', 'benyamin', 'mehrdad', 'sajjad', 'aidin', 'shahin']
+girls = ['sara' , 'zari', 'neda', 'homa', 'eli', 'goli', 'mary', 'mina']
+result = []
 
 for i in range(len(boys)):
 
@@ -14,7 +14,7 @@ for i in range(len(boys)):
     tempG = random.choice(girls)
     girls.remove(tempG)
    
-    m=(tempB,tempG)
+    m = (tempB , tempG)
     result.append(m)
 
 
