@@ -1,11 +1,13 @@
-
 class Fraction:
     def __init__(self,s=0,m=None):
         self.s = s
         self.m = m
 
+
     def show(self):
         print(self.s ,"/", self.m)
+        if self.m == self.s:
+            print("= 1")
 
 
     def sum(self , other):
@@ -19,6 +21,9 @@ class Fraction:
         result.s = self.s * y.s
         result.m = self.m * y.m
         return result
+        # if result.m == result.s:
+        #     print(result.s ,"/" ,result.m , "= 1")    
+        
         #return Fraction(x.s * y.s , x.m * y.m)
 
     def sub(self , other):
@@ -36,23 +41,41 @@ class Fraction:
 print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
 print('^^^^^^^^^^^^^^^^FRACTION CALCULATOR^^^^^^^^^^^^^^^^^')
 print('Hi')
-a = Fraction(1,9)
-a.show()
 
-b=Fraction(22,6)
-b.show()
+s1 = int(input("ENTER (SOORAT) The numerator Of First Fraction : "))
+m1 = int(input("ENTER (MAKHRAGE) Denominator Of First Fraction: "))
+s2 = int(input("ENTER (SOORAT) The numerator Of Second Fraction: "))
+m2 = int(input("ENTER (MAKHRAGE) Denominator Of Second Fraction: "))
+a = Fraction(s1,m1)
+b = Fraction(s2,m2)
 
-c = a.mul(b)
-c.show()
+su = a.sum(b)
+print("sum is:")
+su.show()
 
-d = a.sum(b)
-d.show()
+mu = a.mul(b)
+print("Multiply is:")
+mu.show() 
 
-e= a.sub(b)
-e.show()
+subb = a.sub(b)
+print("subtraction is:")
+subb.show()
 
-f= a.div(b)
-f.show()
+divi = a.div(b)
+print("Division is:")
+divi.show()
 
+# a = Fraction(1,2)
+# a.show()
+# b=Fraction(5,2)
+# b.show()
 
+# c = a.mul(b)
+# c.show()
+# d = a.sum(b)
+# d.show()
+# e= a.sub(b)
+# e.show()
+# f= a.div(b)
+# f.show()
 print('\n   ---- MADE BY MAJID-MSH :)----\n\t<----GOODLUCK---->\n--------------------------------------------')
