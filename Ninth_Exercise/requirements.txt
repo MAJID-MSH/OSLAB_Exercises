@@ -1,0 +1,5 @@
+telebot
+random
+qrcode
+jdatetime
+gtts
