@@ -5,7 +5,7 @@ import jdatetime
 from gtts import gTTS
 
 
-bot = telebot.TeleBot("5071909239:AAE-kLbsN5Rllk1Rjodru8T2hTlJ-GQomZc")
+bot = telebot.TeleBot("HIDDEN")
 
 @bot.message_handler(commands=['start'])
 def starter(message):
